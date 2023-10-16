@@ -11,14 +11,16 @@
   - [Gin](#gin)
     - [Download and Install](#download-and-install)
     - [Documentação oficila do Gin](#documentação-oficila-do-gin)
+  - [Zap - logger](#zap---logger)
 
 
 **Objetivo:** Praticar como criar uma API Rest usando a linguagem [Go](https://go.dev/) com framework [Gin](https://github.com/gin-gonic/gin)
 
 ## Stack
 - [Go](https://go.dev/)
-- [Gin](https://gin-gonic.com/)
-- [UUID](https://pkg.go.dev/github.com/google/uuid#section-readme)
+- [Gin - Web Framework](https://gin-gonic.com/)
+- [zap - logger](https://github.com/uber-go/zap)
+- [UUID - uuid generate](https://pkg.go.dev/github.com/google/uuid#section-readme) 
 
 ## Go
 > Crie sistemas simples, seguros e escaláveis ​​com Go
@@ -117,4 +119,23 @@ import "net/http"
 - [Testing](https://gin-gonic.com/docs/testing/)
 
 Veja [livros sobre Golang](./Livros.md)
+
+## Zap - logger
+> Blazing fast, structured, leveled logging in **Go**.
+>
+
+**Installation**
+```shell
+go get -u go.uber.org/zap
+```
+
+Documentation: https://github.com/uber-go/zap
+
+[Exemplo de configuração](./configuration/logger/logger.go)
+
+**Exemplo de uso**   
+```go
+logger.Info("Application running...")
+```
+
 
