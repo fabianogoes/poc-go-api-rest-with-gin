@@ -93,7 +93,7 @@ Criar um novo middleware é muito fácil, basta verificar o código de exemplo.
 ### Download and Install
 **Download and install**
 ```shell
-go get -u github.com/gin\-gonic/gin
+go get -u github.com/gin-gonic/gin
 ```
 
 **Import**
